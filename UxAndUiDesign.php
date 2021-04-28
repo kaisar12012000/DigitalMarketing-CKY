@@ -99,22 +99,22 @@
              We understand you and your needs and provide services accordingly. Join us today to experience a service one can only dream of.</p>
              <small class="cont2_small">Here is everything you need to get assured of succes in digital marketing...</small>
              <div class="row imgs">
-                <a href="#" class="col-3 rounded-circle img1">Guide to UX/UI</a>
-                <!--<div class="col-1"></div>
-                <a href="#" class="col-2 rounded-circle img2">Guide to UI</a>-->
+                <a href="#" class="col-2 rounded-circle img1">Guide to UX</a>
                 <div class="col-1"></div>
-                <a href="#" class="col-3 rounded-circle img3">UI for websites</a>
+                <a href="#" class="col-2 rounded-circle img2">Guide to UI</a>
                 <div class="col-1"></div>
-                <a href="#" class="col-3 rounded-circle img4">UI for Desktop Apps</a>
+                <a href="#" class="col-2 rounded-circle img3">UI for websites</a>
+                <div class="col-1"></div>
+                <a href="#" class="col-2 rounded-circle img4">UI for Desktop Apps</a>
              </div>
              <div class="row imgs2">
-                <a href="#" class="col-3 rounded-circle img1">UI for IOS</a>
+                <a href="#" class="col-2 rounded-circle img1">UI for IOS</a>
                 <div class="col-1"></div>
-                <a href="#" class="col-3 rounded-circle img2">UI for Android</a>
+                <a href="#" class="col-2 rounded-circle img2">UI for Android</a>
                 <div class="col-1"></div>
-                <a href="#" class="col-3 rounded-circle img3">A trendy UI</a>
-                <!--<div class="col-1"></div>-->
-                <!--<a href="#" class="col-2 rounded-circle img4"></a>-->
+                <a href="#" class="col-2 rounded-circle img3">A trendy UI</a>
+                <div class="col-1"></div>
+                <a href="#" class="col-2 rounded-circle img4">UI for IOS/Android</a>
              </div>
         </div>
         <!--------------------------------------------------------Clients--------------------------------------------------------------->
