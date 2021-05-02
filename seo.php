@@ -7,12 +7,12 @@
         <!-- Bootstrap CSS -->
         <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
-        <title>Social Media Marketing...</title>
+        <title>Search Engine Optimization...</title>
         <link rel="stylesheet" href="smm.css">
         <style>
             .Banner{
                 margin-top:150px;
-                height: 570px;
+                height: 650px;
                 max-width: 100%;
                 background-image: url('https://images.pexels.com/photos/7564244/pexels-photo-7564244.jpeg?cs=srgb&dl=pexels-rodnae-productions-7564244.jpg&fm=jpg');
                 background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.2)), url('https://images.pexels.com/photos/7564244/pexels-photo-7564244.jpeg?cs=srgb&dl=pexels-rodnae-productions-7564244.jpg&fm=jpg');
@@ -105,19 +105,19 @@
         <?php require_once "../../partials/navbar.php" ?>
         <!--------------------------------------------------------Banner--------------------------------------------------------------->
         <div class="Banner container text-center col-lg-12">
-            <div class="display-1" style="padding-top:50px;">SOCIAL MEDIA MARKETING..</div>
-            <div class="fs-3">The entire world is on the internet. How long will you relly on your old fashioned ways?</div>
-            <div class="fs-6" style="margin:60px">Join us today! Get help directly from SMM Experts...</div><br>
-            <a href="#form_tofill" class="btn btn-dark" style="margin:60px 60px 0px; padding: 20px">Speak to our SMM Experts</a>
+            <div class="display-1" style="padding-top:50px;">Search Engine Optmization</div>
+            <div class="fs-3">Nearly 80% of users ignore paid ads in search results while checking products or services online. Let us help you to get your business on top of google search results.</div>
+            <div class="fs-6" style="margin:60px">Join us today! Get help directly from SEO Experts...</div><br>
+            <a href="#form_tofill" class="btn btn-dark" style="margin:60px 60px 0px; padding: 20px">Speak to our SEO Experts</a>
         </div>
         <!--------------------------------------------------------About SMM--------------------------------------------------------------->
         <div class="container row Container1">
             <div class="col-lg-5 col-sm-12">
-                <img src="https://images.pexels.com/photos/4506231/pexels-photo-4506231.jpeg?cs=srgb&dl=pexels-karolina-grabowska-4506231.jpg&fm=jpg/" alt="SMM_imp">
+                <img src="../../images/seo.png" alt="SEO_imp">
             </div>
             <div class="col-lg-1 col-sm-12"></div>
             <div class="col-lg-6 col-sm-12">
-                <div class="display-2">About SMM Post 1...</div>
+                <div class="display-2">About SEO Post 1...</div>
                 <div class="text-justify dl-horizontal">
                     Lorem ipsum dolor sit, amet consectetur adipisicing elit.
                      Quaerat, eveniet provident porro consectetur quae soluta minima beatae tenetur exercitationem
@@ -139,18 +139,17 @@
         </div>
         <!--------------------------------------------------------WWHBGS--------------------------------------------------------------->
         <div class="container text-center Container2">
-            <div class="display-4 cont2_h1">We will help you to become an amazing socialist!!!</div>
-            <div class="fs-5 cont2_p">We are an organization of inovative people who strive for the betterment of our clients.
-             We understand you and your needs and provide services accordingly. Join us today to experience a service one can only dream of.</div>
+            <div class="display-4 cont2_h1">We Produce Content That Boosts Your Success!</div>
+            <div class="fs-5 cont2_p">We are today’s Digital Agency with the vision to propel your services for tomorrow. We provide full Design Services, Social Media strategy to execution, Digital Media services with an SEO driven focus on Content.</div>
              <div class="cont2_small">Here is everything you need to get assured of succes in digital marketing...</div>
              <div class="row imgs">
-                <a href="#" class="col-lg-2 col-sm-12 rounded-circle img1">Content Creation</a>
+                <a href="#" class="col-lg-2 col-sm-12 rounded-circle img1">Keyword Research</a>
                 <!--<div class="col-1 col-sm-12"></div>-->
-                <a href="#" class="col-lg-2 col-sm-12 rounded-circle img2">Social Media Campaign</a>
+                <a href="#" class="col-lg-2 col-sm-12 rounded-circle img2">On & off page SEO</a>
                 <!--<div class="col-1 col-sm-12"></div>-->
-                <a href="#" class="col-lg-2 col-sm-12 rounded-circle img3">Performance Marketing</a>
+                <a href="#" class="col-lg-2 col-sm-12 rounded-circle img3">Content optimization</a>
                 <!--<div class="col-1 col-sm-12"></div>-->
-                <a href="#" class="col-lg-2 col-sm-12 rounded-circle img4">Cross channel Promortion</a>
+                <a href="#" class="col-lg-2 col-sm-12 rounded-circle img4">Increase in web traffic</a>
              </div>
         </div>
         <!--------------------------------------------------------Clients--------------------------------------------------------------->
