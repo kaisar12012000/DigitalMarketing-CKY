@@ -1,14 +1,63 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!-- Required meta tags -->
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <!-- Bootstrap CSS -->
         <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
-        <link rel="stylesheet" href="../DigitalMarketing/smm.css">
-        <title>UX and UI Designing</title>
+        <title>UX and UI Designing...</title>
+        <link rel="stylesheet" href="smm.css">
         <style>
-          .dropbtn {
+            .Banner{
+                margin-top:150px;
+                height: 600px;
+                max-width: 100%;
+                background-image: url('https://images.pexels.com/photos/7564244/pexels-photo-7564244.jpeg?cs=srgb&dl=pexels-rodnae-productions-7564244.jpg&fm=jpg');
+                background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.2)), url('https://images.pexels.com/photos/7564244/pexels-photo-7564244.jpeg?cs=srgb&dl=pexels-rodnae-productions-7564244.jpg&fm=jpg');
+                background-size: cover;
+                background-repeat: no-repeat;
+                /*padding: 250px 250px 270px;*/
+                color: #fff;
+            }
+            .Banner a:hover,
+            .Container1 a:hover {
+                transition-property: all;
+                transition-duration: 1s;
+                transform: rotate(360deg);
+                background-color: #23049d;
+                color: #fff;
+            }
+            .Container1 {
+                margin-top: 100px;
+                margin-bottom:100px;
+            }
+            .Container1 img {
+                width: 100%;
+                height: 360px;
+                margin: 30px 25px 30px;
+                padding: 30px 25px 30px;
+            }
+            .Container2 {
+                margin: 100px 0px 100px;
+                width: 100%;
+                max-width:100%;
+                background-color: crimson;
+                color: #fff;
+            }
+            .Container3 {
+                max-width: 100%;
+                width: 100%;
+                margin: 100px 0px 50px;
+                padding: 20px;
+                background-color: #ce1f6a;
+                color: #fff;
+            }
+            .why_us1 img {
+                height: 500px;
+            }
+            .dropbtn {
             display: inline-block;
             border: 2px solid #dcdcdc;
             color: white;
@@ -49,31 +98,27 @@
           .dropdown:hover .dropdown-content {
             display: block;
           }
-          .imgs2 {
-            justify-content: space-around;
-            padding-top: 5px;
-          }
         </style>
     </head>
     <body>
         <!---------------------------------------------------------Navigation-------------------------------------------------------------->
         <?php require_once "../../partials/navbar.php" ?>
         <!--------------------------------------------------------Banner--------------------------------------------------------------->
-        <div class="banner text-center">
-            <h1 class="display-1">User Experience/User Interface..</h1>
-            <p class="fs-3">The entire world is on the internet. How long will you relly on your old fashioned ways?</p>
-            <small class="fs-6" style="margin:60px">Join us today! Get help directly from UX/UI Experts...</small><br>
-            <a href="#" class="btn btn-dark" style="margin:60px 60px 0px; padding: 20px">Speak to our UX/UI Experts</a>
+        <div class="Banner container text-center col-lg-12">
+            <div class="display-1" style="padding-top:50px;">User Experience/User Interface...</div>
+            <div class="fs-3">The entire world is on the internet. How long will you relly on your old fashioned ways?</div>
+            <div class="fs-6" style="margin:60px">Join us today! Get help directly from UX/UI Experts...</div><br>
+            <a href="#form_tofill" class="btn btn-dark" style="margin:60px 60px 0px; padding: 20px">Speak to our UX/UI Experts</a>
         </div>
-        <!-----------------------------------------------------About Web Dev--------------------------------------------------------------->
-        <div class="container row container-1">
-            <div class="col-5">
-                <img src="https://images.pexels.com/photos/4506231/pexels-photo-4506231.jpeg?cs=srgb&dl=pexels-karolina-grabowska-4506231.jpg&fm=jpg/" alt="SMM_imp">
+        <!--------------------------------------------------------About SMM--------------------------------------------------------------->
+        <div class="container row Container1">
+            <div class="col-lg-5 col-sm-12">
+                <img src="https://images.pexels.com/photos/4506231/pexels-photo-4506231.jpeg?cs=srgb&dl=pexels-karolina-grabowska-4506231.jpg&fm=jpg/" alt="CM_imp">
             </div>
-            <div class="col-1"></div>
-            <div class="col-6">
-                <h1 class="display-2">About UX/UI Post 1...</h1>
-                <p class="text-justify dl-horizontal">
+            <div class="col-lg-1 col-sm-12"></div>
+            <div class="col-lg-6 col-sm-12">
+                <div class="display-2">About UX/UI Post 1...</div>
+                <div class="text-justify dl-horizontal">
                     Lorem ipsum dolor sit, amet consectetur adipisicing elit.
                      Quaerat, eveniet provident porro consectetur quae soluta minima beatae tenetur exercitationem
                       tempore fugiat sunt earum ea, ratione quos ipsam! Ex, laboriosam recusandae. Lorem ipsum dolor sit amet consectetur adipisicing elit.
@@ -82,100 +127,85 @@
                         Lorem ipsum dolor sit amet consectetur adipisicing elit.
                          Unde voluptates fugit porro suscipit eaque vero, ab earum id illo! Adipisci maxime sunt quis nihil saepe.
                           Fuga ipsa dignissimos nesciunt. Molestias.
-                </p>
-                <p class="text-justify dl-horizontal">
+                </div>
+                <div class="text-justify dl-horizontal">
                     Lorem ipsum dolor sit, amet consectetur adipisicing elit.
                      Quaerat, eveniet provident porro consectetur quae soluta minima beatae tenetur exercitationem
                       tempore fugiat sunt earum ea, ratione quos ipsam! Ex, laboriosam recusandae. Lorem ipsum dolor sit amet consectetur adipisicing elit.
                        Perspiciatis maiores quidem iusto in impedit nostrum voluptatem mollitia.
-                </p>
-                <a href="#" class="btn btn-primary cont2_a">Know more about UX/UI!</a>
+                </div>
+                <a href="#form_tofill" class="btn btn-primary cont2_a">Talk to us!</a>
             </div>
         </div>
-        <!-------------------------------------------------WWHYBAAS-------------------------------------------------------------------->
-        <div class="container container-2 text-center">
-            <h1 class="display-4 cont2_h1">Begin your career as a professional!!!</h1>
-            <p class="fs-5 cont2_p">We are an organization of inovative people who strive for the betterment of our clients.
-             We understand you and your needs and provide services accordingly. Join us today to experience a service one can only dream of.</p>
-             <small class="cont2_small">Here is everything you need to get assured of succes in digital marketing...</small>
+        <!--------------------------------------------------------WWHBGS--------------------------------------------------------------->
+        <div class="container text-center Container2">
+            <div class="display-4 cont2_h1">Begin your career as a professional!!!</div>
+            <div class="fs-5 cont2_p">We are an organization of inovative people who strive for the betterment of our clients.
+             We understand you and your needs and provide services accordingly. Join us today to experience a service one can only dream of.</div>
+             <div class="cont2_small">Here is everything you need to get assured of succes in digital marketing...</div>
              <div class="row imgs">
-                <a href="#" class="col-2 rounded-circle img1">Guide to UX</a>
-                <div class="col-1"></div>
-                <a href="#" class="col-2 rounded-circle img2">Guide to UI</a>
-                <div class="col-1"></div>
-                <a href="#" class="col-2 rounded-circle img3">UI for websites</a>
-                <div class="col-1"></div>
-                <a href="#" class="col-2 rounded-circle img4">UI for Desktop Apps</a>
+                <a href="#" class="col-lg-2 col-sm-12 rounded-circle img1">Guide to UX</a>
+                <!--<div class="col-1 col-sm-12"></div>-->
+                <a href="#" class="col-lg-2 col-sm-12 rounded-circle img2">Guide to UI</a>
+                <!--<div class="col-1 col-sm-12"></div>-->
+                <a href="#" class="col-lg-2 col-sm-12 rounded-circle img3">UI for websites</a>
+                <!--<div class="col-1 col-sm-12"></div>-->
+                <a href="#" class="col-lg-2 col-sm-12 rounded-circle img4">UI for Desktop Apps</a>
              </div>
-             <div class="row imgs2">
-                <a href="#" class="col-2 rounded-circle img1">UI for IOS</a>
-                <div class="col-1"></div>
-                <a href="#" class="col-2 rounded-circle img2">UI for Android</a>
-                <div class="col-1"></div>
-                <a href="#" class="col-2 rounded-circle img3">A trendy UI</a>
-                <div class="col-1"></div>
-                <a href="#" class="col-2 rounded-circle img4">UI for IOS/Android</a>
+             <div class="row imgs">
+                <a href="#" class="col-lg-2 col-sm-12 rounded-circle img1">UI for IOS</a>
+                <!--<div class="col-1 col-sm-12"></div>-->
+                <a href="#" class="col-lg-2 col-sm-12 rounded-circle img2">UI for Android</a>
+                <!--<div class="col-1 col-sm-12"></div>-->
+                <a href="#" class="col-lg-2 col-sm-12 rounded-circle img3">A trendy UI</a>
+                <!--<div class="col-1 col-sm-12"></div>-->
+                <a href="#" class="col-lg-2 col-sm-12 rounded-circle img4">UI for IOS/Android</a>
              </div>
         </div>
         <!--------------------------------------------------------Clients--------------------------------------------------------------->
         <div class="clients container">
-            <h1 class="display-2 text-center">Clients</h1>
+            <div class="display-2 text-center">Clients</div>
             <div class="row image-row">
-              <img src="https://raw.githubusercontent.com/anirudh-kac/CKY-Digital-Marketing-Site/main/Main/images/lodha.webp?token=ARCWB4WBLGR2ZHJ3Z224YCLASDBRQ" alt="client" class="col-3">
-              <img src="https://raw.githubusercontent.com/anirudh-kac/CKY-Digital-Marketing-Site/main/Main/images/lodha.webp?token=ARCWB4WBLGR2ZHJ3Z224YCLASDBRQ" alt="client" class="col-3">
-              <img src="https://raw.githubusercontent.com/anirudh-kac/CKY-Digital-Marketing-Site/main/Main/images/lodha.webp?token=ARCWB4WBLGR2ZHJ3Z224YCLASDBRQ" alt="client" class="col-3">
-              <img src="https://raw.githubusercontent.com/anirudh-kac/CKY-Digital-Marketing-Site/main/Main/images/lodha.webp?token=ARCWB4WBLGR2ZHJ3Z224YCLASDBRQ" alt="client" class="col-3">
+              <img src="https://raw.githubusercontent.com/anirudh-kac/CKY-Digital-Marketing-Site/main/Main/images/lodha.webp?token=ARCWB4WBLGR2ZHJ3Z224YCLASDBRQ" alt="client" class="col-lg-3 col-sm-12">
+              <img src="https://raw.githubusercontent.com/anirudh-kac/CKY-Digital-Marketing-Site/main/Main/images/lodha.webp?token=ARCWB4WBLGR2ZHJ3Z224YCLASDBRQ" alt="client" class="col-lg-3 col-sm-12">
+              <img src="https://raw.githubusercontent.com/anirudh-kac/CKY-Digital-Marketing-Site/main/Main/images/lodha.webp?token=ARCWB4WBLGR2ZHJ3Z224YCLASDBRQ" alt="client" class="col-lg-3 col-sm-12">
+              <img src="https://raw.githubusercontent.com/anirudh-kac/CKY-Digital-Marketing-Site/main/Main/images/lodha.webp?token=ARCWB4WBLGR2ZHJ3Z224YCLASDBRQ" alt="client" class="col-lg-3 col-sm-12">
             </div>
             <div class="row image-row">
-              <img src="https://raw.githubusercontent.com/anirudh-kac/CKY-Digital-Marketing-Site/main/Main/images/lodha.webp?token=ARCWB4WBLGR2ZHJ3Z224YCLASDBRQ" alt="client" class="col-3">
-              <img src="https://raw.githubusercontent.com/anirudh-kac/CKY-Digital-Marketing-Site/main/Main/images/lodha.webp?token=ARCWB4WBLGR2ZHJ3Z224YCLASDBRQ" alt="client" class="col-3">
-              <img src="https://raw.githubusercontent.com/anirudh-kac/CKY-Digital-Marketing-Site/main/Main/images/lodha.webp?token=ARCWB4WBLGR2ZHJ3Z224YCLASDBRQ" alt="client" class="col-3">
-              <img src="https://raw.githubusercontent.com/anirudh-kac/CKY-Digital-Marketing-Site/main/Main/images/lodha.webp?token=ARCWB4WBLGR2ZHJ3Z224YCLASDBRQ" alt="client" class="col-3">
+              <img src="https://raw.githubusercontent.com/anirudh-kac/CKY-Digital-Marketing-Site/main/Main/images/lodha.webp?token=ARCWB4WBLGR2ZHJ3Z224YCLASDBRQ" alt="client" class="col-lg-3 col-sm-12">
+              <img src="https://raw.githubusercontent.com/anirudh-kac/CKY-Digital-Marketing-Site/main/Main/images/lodha.webp?token=ARCWB4WBLGR2ZHJ3Z224YCLASDBRQ" alt="client" class="col-lg-3 col-sm-12">
+              <img src="https://raw.githubusercontent.com/anirudh-kac/CKY-Digital-Marketing-Site/main/Main/images/lodha.webp?token=ARCWB4WBLGR2ZHJ3Z224YCLASDBRQ" alt="client" class="col-lg-3 col-sm-12">
+              <img src="https://raw.githubusercontent.com/anirudh-kac/CKY-Digital-Marketing-Site/main/Main/images/lodha.webp?token=ARCWB4WBLGR2ZHJ3Z224YCLASDBRQ" alt="client" class="col-lg-3 col-sm-12">
             </div>
         </div>
-        <!--------------------------------------------------------Why Us?--------------------------------------------------------------->
-        <div class="container why_us row">
-          <div class="why_u2 col-6">
-            <h2 class="display-3 text-center">Why choose Us???</h2>
-            <p class="fs-5 justify-text">
-              We have a team of expert social media marketer who have an experience of more than six years. Who started just like you having very less
-              resources and some even had nothing. DMS-CKY helps yopu realize what resources you have and what are your potential. We encourage you to
-              believe in yourself and make the best off yor resources. We help you in improving your planning stratergies such that everytime you make 
-              an investment your resources increase.
-            </p>
-            <p class="fs-5 justify-text">
-              In a business such as yours or anyone's, at a stage like this even a profit of Rs 1 is considered to be a profit. We help you plan your 
-              investment cycle and make sure you make a good turn-over. You are getting help from young enthusiasts who strive for the economic and financial betterment of the 
-              society. Join us today to experience something you would only call as 7 star service.
-            </p>
-        </div>
-            <div class="row why_us1 col-6">
-              <div class="why_us1_p">
-                <p>Connect and influence more people in less time. Zero effort needed to to promote your buiness. Nearly 149 minutes per day investment.
-                Connect and influence more people in less time. Zero effort needed to to promote your buiness. Nearly 149 minutes per day investment.
-                </p>
-                <p>You are not alone. There are many with you. Nearly 81% of small businesses are doing this. You are not alone. There are many with you.
-                 Nearly 81% of small businesses are doing thisYou are not alone. There are many with you. Nearly 81% of small businesses are doing this.
-                 You are not alone. There are many with you. Nearly 81% of small businesses are doing this.You are not alone.</p>
-              </div>
-              <div class="why_us1_p">
-                <p>One social media plat form is not enough. You got to have atleast two. 91% of small retails own two social media accounts.
-                You are not alone. There are many with you. Nearly 81% of small businesses are doing this.
-                You are not alone. There are many with you. Nearly 81% of small businesses are doing this.</p>
-                <p>Social media businesses grew upto 328 million between October 2018 to October 2019.
-                One social media plat form is not enough. You got to have atleast two. 91% of small retails own two social media accounts.
-                One social media plat form is not enough. You got to have atleast two. 91% of small retails own two social media accounts.</p>
-              </div>
+        <!--------------------------------------------------------Why us--------------------------------------------------------------->
+        <div class="container Container3 row">
+            <div class="why_u2 col-lg-6 col-sm-12">
+                <div class="display-3 text-center">Why choose Us???</div>
+                <div class="fs-5 justify-text">
+                  We have a team of expert social media marketer who have an experience of more than six years. Who started just like you having very less
+                  resources and some even had nothing. DMS-CKY helps yopu realize what resources you have and what are your potential. We encourage you to
+                  believe in yourself and make the best off yor resources. We help you in improving your planning stratergies such that everytime you make 
+                  an investment your resources increase.
+                </div>
+                <div class="fs-5 justify-text">
+                  In a business such as yours or anyone's, at a stage like this even a profit of Rs 1 is considered to be a profit. We help you plan your 
+                  investment cycle and make sure you make a good turn-over. You are getting help from young enthusiasts who strive for the economic and financial betterment of the 
+                  society. Join us today to experience something you would only call as 7 star service.
+                </div>
+            </div>
+            <div class="row why_us1 w3-container w3-center w3-animate-right col-lg-6 col-sm-12">
+                <img src="../../images/sem2.png" alt="CM">
             </div>
         </div>
-        <!--------------------------------------------------------How can we help you?--------------------------------------------------------------->
-        <div class="container row how_can_we_help_you">
-            <div class="col-4 hcwhy">
+        <!--------------------------------------------------------HCWHY--------------------------------------------------------------->
+        <div id="form_tofill" class="container row how_can_we_help_you">
+            <div class="col-lg-4 col-sm-12 hcwhy">
               <h3 class="display-4 hcwhy_content">How can we help you?</h3>
               <h5 class="fs-1 hcwhy_content">Get a Quote for you..</h5>
               <small class="fs-5 hcwhy_content">We ssually respond within 24 hours from your request.</small>
             </div>
-            <div class="col-8 hcwhy">
+            <div class="col-lg-8 col-sm-12 hcwhy">
               <form action="" class="form-group hcwhy_content">
                 <div class="form_part1">
                   <input type="text" class="hcwhy_content_textField" placeholder="Name*"><br>
@@ -219,7 +249,7 @@
             <a href="#" class="btn text-center faq_a">Long Question Statement?</a><br>
             <a href="#" class="btn text-center faq_a">Long Question Statement?</a><br>
         </div>
-        <!--------------------------------------------------Footer---------------------------------------------------------------->
-        <?php require_once "../../partials/footer.php" ?>
+        <!--------------------------------------------------------footer--------------------------------------------------------------->
+        <?php require_once "../../partials/footer.php" ?>        
     </body>
 </html>

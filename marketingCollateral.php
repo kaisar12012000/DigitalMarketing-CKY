@@ -7,12 +7,12 @@
         <!-- Bootstrap CSS -->
         <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
-        <title>Website Design and Development...</title>
+        <title>Graphic logo design...</title>
         <link rel="stylesheet" href="smm.css">
         <style>
             .Banner{
                 margin-top:150px;
-                height: 640px;
+                height: 600px;
                 max-width: 100%;
                 background-image: url('https://images.pexels.com/photos/7564244/pexels-photo-7564244.jpeg?cs=srgb&dl=pexels-rodnae-productions-7564244.jpg&fm=jpg');
                 background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.2)), url('https://images.pexels.com/photos/7564244/pexels-photo-7564244.jpeg?cs=srgb&dl=pexels-rodnae-productions-7564244.jpg&fm=jpg');
@@ -105,10 +105,10 @@
         <?php require_once "../../partials/navbar.php" ?>
         <!--------------------------------------------------------Banner--------------------------------------------------------------->
         <div class="Banner container text-center col-lg-12">
-            <div class="display-1" style="padding-top:50px;">WEBSITE DESIGN AND DEVELOPMENT...</div>
-            <div class="fs-3">The entire world is on the internet. How long will you relly on your old fashioned ways?</div>
-            <div class="fs-6" style="margin:60px">Join us today! Get help directly from Web Dev's...</div><br>
-            <a href="#form_tofill" class="btn btn-dark" style="margin:60px 60px 0px; padding: 20px">Speak to our Web Dev's</a>
+            <div class="display-1" style="padding-top:50px;">Marketing Collateral Design...</div>
+            <!--<div class="fs-3">A unique and coloured logo increases your brand recognition chances with 80%.</div>-->
+            <div class="fs-6" style="margin:60px">Join us today! Get help directly from Experts...</div><br>
+            <a href="#form_tofill" class="btn btn-dark" style="margin:60px 60px 0px; padding: 20px">Speak to our Experts</a>
         </div>
         <!--------------------------------------------------------About SMM--------------------------------------------------------------->
         <div class="container row Container1">
@@ -117,7 +117,7 @@
             </div>
             <div class="col-lg-1 col-sm-12"></div>
             <div class="col-lg-6 col-sm-12">
-                <div class="display-2">About Website Development Post 1...</div>
+                <div class="display-2">About Logo Post 1...</div>
                 <div class="text-justify dl-horizontal">
                     Lorem ipsum dolor sit, amet consectetur adipisicing elit.
                      Quaerat, eveniet provident porro consectetur quae soluta minima beatae tenetur exercitationem
@@ -134,32 +134,23 @@
                       tempore fugiat sunt earum ea, ratione quos ipsam! Ex, laboriosam recusandae. Lorem ipsum dolor sit amet consectetur adipisicing elit.
                        Perspiciatis maiores quidem iusto in impedit nostrum voluptatem mollitia.
                 </div>
-                <a href="#form_tofill" class="btn btn-primary cont2_a">Get yourself a website now!</a>
+                <a href="#form_tofill" class="btn btn-primary cont2_a">Talk to us!</a>
             </div>
         </div>
         <!--------------------------------------------------------WWHBGS--------------------------------------------------------------->
         <div class="container text-center Container2">
-            <div class="display-4 cont2_h1">Begin your career as a professional!!!</div>
-            <div class="fs-5 cont2_p">We are an organization of inovative people who strive for the betterment of our clients.
-             We understand you and your needs and provide services accordingly. Join us today to experience a service one can only dream of.</div>
+            <div class="display-4 cont2_h1">Because Tailored Messaging Matters...</div>
+            <div class="fs-5 cont2_p">We are today’s Digital Agency with the vision to propel your services for tomorrow. We provide full Design Services,
+              Social Media strategy to execution, Digital Media services with an SEO driven focus on Content.</div>
              <div class="cont2_small">Here is everything you need to get assured of succes in digital marketing...</div>
              <div class="row imgs">
-                <a href="#" class="col-lg-2 col-sm-12 rounded-circle img1">Web Content Creation</a>
+                <a href="#" class="col-lg-2 col-sm-12 rounded-circle img1">Communication Strategy</a>
                 <!--<div class="col-1 col-sm-12"></div>-->
-                <a href="#" class="col-lg-2 col-sm-12 rounded-circle img2">Web Designing</a>
+                <a href="#" class="col-lg-2 col-sm-12 rounded-circle img2">Print Ads & OOH Design</a>
                 <!--<div class="col-1 col-sm-12"></div>-->
-                <a href="#" class="col-lg-2 col-sm-12 rounded-circle img3">Full stack dev</a>
+                <a href="#" class="col-lg-2 col-sm-12 rounded-circle img3">Profiles, Brochures & Annual reports</a>
                 <!--<div class="col-1 col-sm-12"></div>-->
-                <a href="#" class="col-lg-2 col-sm-12 rounded-circle img4">Domain and DB</a>
-             </div>
-             <div class="row imgs">
-                <a href="#" class="col-lg-2 col-sm-12 rounded-circle img1">Web apps</a>
-                <!--<div class="col-1 col-sm-12"></div>-->
-                <a href="#" class="col-lg-2 col-sm-12 rounded-circle img2">Trending functions</a>
-                <!--<div class="col-1 col-sm-12"></div>-->
-                <a href="#" class="col-lg-2 col-sm-12 rounded-circle img3">Full access on DB</a>
-                <!--<div class="col-1 col-sm-12"></div>-->
-                <a href="#" class="col-lg-2 col-sm-12 rounded-circle img4">You write zero code</a>
+                <a href="#" class="col-lg-2 col-sm-12 rounded-circle img4">Retail & POS Design</a>
              </div>
         </div>
         <!--------------------------------------------------------Clients--------------------------------------------------------------->
@@ -195,7 +186,7 @@
                 </div>
             </div>
             <div class="row why_us1 w3-container w3-center w3-animate-right col-lg-6 col-sm-12">
-                <img src="../../images/sem2.png" alt="CM">
+                <img src="../../images/logo2.png" alt="CM">
             </div>
         </div>
         <!--------------------------------------------------------HCWHY--------------------------------------------------------------->
